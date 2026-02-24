@@ -3,7 +3,7 @@ cask "wxcli" do
   name "wxcli"
   desc "A fast CLI for managing WeChat Official Account"
   homepage "https://github.com/inforix/wxcli"
-  version "1.0.8"
+  version "1.0.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "wxcli" do
   on_macos do
     on_intel do
       url "https://github.com/inforix/wxcli/releases/download/v#{version}/wxcli_#{version}_darwin_amd64.tar.gz"
-      sha256 "0d3628185ad486edbead934508cfb64405db43a6a5c99ad2f318236dd5699e4b"
+      sha256 "be60087c37250fe4f791cdcef597441eee0facd4ed17c81a03730ef3a51c15c8"
     end
     on_arm do
       url "https://github.com/inforix/wxcli/releases/download/v#{version}/wxcli_#{version}_darwin_arm64.tar.gz"
-      sha256 "b1919aa6114c52d80b8982f9b146e9c9aaa240c4990ecc926a1bf1f0d0f670b5"
+      sha256 "6cf38e7303d4c5099ceb30f70ae72b7a8e7b178e476c19704524054091471575"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/inforix/wxcli/releases/download/v#{version}/wxcli_#{version}_linux_amd64.tar.gz"
-      sha256 "b7beaefc26dea3b075b856e9bba251ba0865fb93a09730454874c6c600c9693a"
+      sha256 "f36f6211bdafa86aa06b487a1dd98b12b6823012257068dec2ffdcce1769fd47"
     end
     on_arm do
       url "https://github.com/inforix/wxcli/releases/download/v#{version}/wxcli_#{version}_linux_arm64.tar.gz"
-      sha256 "3f1bd136e18b504df8a8104122cdbb11d614ac418c217d93fa5fe894eedf0a43"
+      sha256 "58690e743511ea5d26f1e102cd9fd8bd50fe6fa047ad83b8d43c42f6d1f33810"
     end
   end
 
